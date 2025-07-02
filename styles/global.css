@@ -7,6 +7,7 @@
 
 :root { 
   /* Colors */ 
+  --color-span:#5963f1;
   --color-red:#E3646E;
   --color-purple:#BB72E9;
   --color-blue:#3996DB;
@@ -22,7 +23,7 @@
   /* Fonts */
   --font-family:'Asap',sans-serif;
   --second-font:'Inconsolata',monospace;
-  --third-font:'Maven Pro,monospace';
+  --third-font:'Maven Pro',monospace;
   --h1:700 56px/120% var(--font-family);
   --h2:700 24px/120% var(--font-family);
   --h3:700 16px/120% var(--font-family);
@@ -35,4 +36,19 @@ body {
   font: var(--subtitle);
   color: var(--base-gray-200);
   background-color: var(--base-gray-500);
+} 
+
+a {
+  text-decoration: none;
 }
+
+
+
+h1, h2, h3 {
+  font-family: "Asap";
+}
+ 
+#tag-title {
+  color: var(--base-gray-100);
+}
+
