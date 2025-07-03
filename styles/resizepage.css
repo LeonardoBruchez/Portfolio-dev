@@ -1,0 +1,19 @@
+body {
+  background-image: url(../assets/images/Gemini_Generated_Image_8rcnd78rcnd78rcn.png);
+  background-attachment: fixed;
+  background-position: cover;
+}
+
+#page {
+  width: 1200px;
+  margin: auto;
+  background-color: var(--base-gray-500);
+  background-size: cover;
+}
+
+@media (max-width: 1150px) {
+  #page {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
